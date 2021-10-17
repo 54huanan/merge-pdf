@@ -5,7 +5,7 @@
 
 2. 在`E:\python\merge-pdf>` 打开cmd
 
-3. 运行指令`python main.py E:\Baidu\技术面试-19403` 
+3. 运行指令`python main.py "E:\Baidu\技术面试-19403"` 。如果项目目录有空格，可以将dir用双引号包一下。
 
    合并后的文件将会在主题根目录生成
 

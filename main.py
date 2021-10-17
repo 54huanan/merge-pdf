@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     file_merger = PdfFileMerger()
     for pdf in pdf_lst:
-        file_merger.append(pdf)  # 合并pdf文件
+        file_merger.append(pdf, bookmark=os.path.basename(pdf), import_bookmarks=False)  # 合并pdf文件
 
     file_merger.write(target_dir + "/merge.pdf")
     print("合并成功")
